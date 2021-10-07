@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {  
+    font-family:  sans-serif;
+    counter-reset: Mhmod;
+    position: relative;
+    padding: 25px;
+    
+}
+
+:root {
+    --color: #ddd
+}
+
+
+.wraper {
+    background-color: #2196F3;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.page {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+}
+
+.page h1 {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.page  input {
+    border: 0;
+    border-bottom: 1px solid #999999;
+    margin: 10px 0;
+    padding: 10px;
+    padding-left: 25px;
+    position: relative;
+    width: 80%;
+}
+
+.page form {
+    position: relative;
+}
+
+.page #one  {
+    position: absolute;
+    z-index: 2;
+    top: 18px;
+}
+
+.page #two  {
+    position: absolute;
+    z-index: 2;
+    top: 18px;
+}  
+
+.page #three  {
+    position: absolute;
+    z-index: 2;
+    top: 18px;
+}  
+
+.page #four  {
+    position: absolute;
+    z-index: 2;
+    top: 18px;
+}  
+
+i {
+    color: #999999;
+}
+
+.page .btn {
+    color: white;
+    background-color: #2196F3;
+    width: 95%;
+    height: 35px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.page p {
+    color: #999999;
+    font-size: 13px;
+    text-align: center;
+    margin: 30px 0;
+
+}
+
+.page p a {
+    color: #2196F3;
+}
+
+.page .dot {
+    border-bottom: 1px dotted #999999;
+}
+
+.page h4 {
+    text-align: center;
+    color: #484747 ;
+    margin: 10px 0;
+}
